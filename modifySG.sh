@@ -1,6 +1,6 @@
 #!/bin/bash
 
-### Shell script that will modify/update an AWS Security Group and open the specific port/all port for a list of IP.
+### Shell script that will modify/update an AWS Security Group and open the specific port/all port for a list of IP. ###
 
 cidrtxt="/home/ec2-user/cidrlist.txt"
 ips=`cat $cidrtxt | awk '{print $1}'`
